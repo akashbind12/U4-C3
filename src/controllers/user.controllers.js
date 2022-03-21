@@ -28,7 +28,7 @@ router.post("/register", upload.any("profileImage"), async (req, res) => {
       lastName : req.body.firstName,
       age : req.body.firstName,
       email : req.body.firstName,
-      profilePic: filePaths,
+      profileImage : filePaths,
       
     });
 
